@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Simple Task Manager Application
+Overview
+This is a full-stack web application designed to help users efficiently manage their daily tasks. It provides an intuitive interface for interacting with tasks, while all data is reliably stored and managed on a backend server. This project serves as a foundational example of how a modern web frontend communicates with a custom API to achieve persistent data storage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+The Task Manager allows users to perform standard task management operations:
 
-## Available Scripts
+View Tasks: Display a real-time list of all tasks.
+Add New Tasks: Easily create new tasks with a title.
+Toggle Completion Status: Mark tasks as complete or incomplete with a simple click.
+Delete Tasks: Remove unwanted tasks from the list.
+Data Persistence: All task data is stored securely in a database, ensuring that tasks remain available even after closing and reopening the application.
+Technologies Used
+This application is built using a combination of popular web technologies:
 
-In the project directory, you can run:
+Frontend:
+React: For building the dynamic and responsive user interface.
+HTML5 & CSS3: For structuring and styling the web application.
+JavaScript: The core programming language for frontend logic.
+Axios: A library used for making HTTP requests from the frontend to the backend API.
+npm: Used for managing project dependencies and running development scripts.
+Backend:
+PHP: Powers the server-side logic and handles requests from the frontend.
+MySQL: A robust relational database system used for storing all task information.
+PDO: PHP Data Objects, used for secure and efficient interaction with the MySQL database.
+API Communication:
+RESTful API: Defines the standardized way the frontend and backend communicate, using standard HTTP methods (GET, POST, PUT, DELETE) for CRUD operations on tasks.
+Local Development Environment:
+XAMPP: Provides the necessary Apache web server, MySQL database, and PHP runtime environment on a local machine.
 
-### `npm start`
+Future Enhancements
+Potential improvements and features that could be added include:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The ability to edit existing task titles.
+Filtering options (e.g., showing only active, completed, or all tasks).
+Sorting tasks by various criteria (e.g., creation date, alphabetical).
+Implementing pagination for larger task lists.
+Adding user authentication and authorization to allow individual users to manage their own task lists
